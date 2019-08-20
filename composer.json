@@ -1,0 +1,38 @@
+{
+    "name": "kreait/clock",
+    "description": "A PHP 7.0 compatible clock abstraction",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Gamez",
+            "email": "jerome@gamez.name"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kreait\\Clock\\": "src/Clock"
+        },
+        "files": [
+            "src/Clock.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5.14"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kreait\\Tests\\Clock\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.33"
+        }
+    }
+}
