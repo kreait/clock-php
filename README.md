@@ -28,10 +28,10 @@ $systemClock = new SystemClock(new DateTimeZone('UTC'));
 var_dump($systemClock->now());
 
 $frozenClock = new FrozenClock(new DateTimeImmutable('2019-08-20 10:41:53'));
-var_dump($systemClock->now());
+var_dump($frozenClock->now());
 
 $frozenClock->setTo(new DateTimeImmutable('2019-08-19 19:19:19'));
-var_dump($systemClock->now());
+var_dump($frozenClock->now());
 ```
 
 ## Credits
