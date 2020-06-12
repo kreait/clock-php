@@ -6,7 +6,7 @@ A PHP 7.0 compatible clock abstraction.
 [![Supported PHP version](https://img.shields.io/packagist/php-v/kreait/clock.svg)]()
 [![Discord](https://img.shields.io/discord/523866370778333184.svg?color=7289da&logo=discord)](https://discord.gg/nbgVfty)
 
-[![Build Status](https://travis-ci.com/kreait/clock-php.svg?branch=master)](https://travis-ci.com/kreait/clock-php)
+[![Build Status](https://travis-ci.com/kreait/clock-php.svg)](https://travis-ci.com/kreait/clock-php)
 
 ## Installation
 
