@@ -1,0 +1,29 @@
+name: Tests
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  tests:
+    name: PHP ${{ matrix.php }}
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        php: ["7.0", "7.1", "7.2", "7.3", "7.4", "8.0"]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+
+      - name: Install dependencies
+        run: composer update --prefer-dist --no-interaction --no-suggest --no-progress
+
+      - name: Run PHPUnit
+        run: vendor/bin/phpunit
