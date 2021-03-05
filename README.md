@@ -4,8 +4,9 @@ A PHP 7.0 compatible clock abstraction.
 
 [![Current version](https://img.shields.io/packagist/v/kreait/clock.svg)](https://packagist.org/packages/kreait/clock)
 [![Supported PHP version](https://img.shields.io/packagist/php-v/kreait/clock.svg)]()
-[![Discord](https://img.shields.io/discord/523866370778333184.svg?color=7289da&logo=discord)](https://discord.gg/nbgVfty)
-
+[![Monthly Downloads](https://img.shields.io/packagist/dm/kreait/clock.svg)](https://packagist.org/packages/kreait/clock/stats)
+[![Total Downloads](https://img.shields.io/packagist/dt/kreait/clock.svg)](https://packagist.org/packages/kreait/clock/stats)
+[![Discord](https://img.shields.io/discord/807679292573220925.svg?color=7289da&logo=discord)](https://discord.gg/Yacm7unBsr)
 [![Build Status](https://travis-ci.com/kreait/clock-php.svg)](https://travis-ci.com/kreait/clock-php)
 
 ## Installation
