@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.2 - 2022-04-20
+
+This release introduces a compatibility layer with the PSR-20 draft, allowing us to already
+get some interoperability by depending on a shared interface.
+
 ## 1.1 - 2020-10-04
 
 * The default branch of the GitHub repository has been renamed from `master` to `main` - 
