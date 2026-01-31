@@ -1,3 +1,6 @@
+> [!WARNING]
+> This package is no longer maintained. Use [beste/clock](https://packagist.org/packages/beste/clock) instead.
+
 # Clock
 
 A PHP 7.0 compatible clock abstraction.
